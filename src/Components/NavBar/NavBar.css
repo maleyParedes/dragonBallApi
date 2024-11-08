@@ -1,0 +1,20 @@
+nav {
+  width: 100%;
+  position: sticky;
+  top: 0; /* Fija el menú en la parte superior cuando se hace scroll */
+  display: flex;
+  justify-content: center;
+  z-index: 1000; /* Asegura que el menú esté por encima de otros elementos */
+}
+
+
+
+#botones {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
